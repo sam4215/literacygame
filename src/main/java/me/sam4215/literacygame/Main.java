@@ -8,7 +8,7 @@ public class Main {
     Scanner scanner = new Scanner(System.in);
     String prompt = "Press SPACEBAR to continue...";
     String newLine = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
-    out.println("Quitter/Camper/Climber: A game");
+    out.println("C L I M B: A game");
     out.println("By Sam Bird, Kami Harker, Brandon Cox, and Emma ..lastname..");
     out.println(newLine + "YOU: I'll never amount to anything...");
     out.println(prompt);
@@ -17,4 +17,5 @@ public class Main {
     out.println(prompt);
     scanner.nextLine();
     out.println(newLine + "YOU: Who's there?");
-    out.println("A VOICE: Over here.");
+    out.println("A VOICE: Over here.\n" + prompt);
+    scanner.nextLine();
