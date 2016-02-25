@@ -19,3 +19,5 @@ public class Main {
     out.println(newLine + "YOU: Who's there?");
     out.println("A VOICE: Over here.\n" + prompt);
     scanner.nextLine();
+  }
+}
