@@ -13,16 +13,16 @@ public class Main {
     out.println("By Sam Bird, Kami Harker, Brandon Cox, and Emma ..lastname..");
     out.println(newLine + "YOU: I'll never amount to anything...");
     out.println(prompt);
-    scanner.nextLine();
+    scanner.next();
     out.println(newLine + "A VOICE: Finally, someone who shares my views.");
     out.println(prompt);
-    scanner.nextLine();
+    scanner.next();
     out.println(newLine + "YOU: Who's there?");
     out.println("A VOICE: Over here.\n" + prompt);
-    scanner.nextLine();
+    scanner.next();
     out.println(newLine + "YOU: Well, hello there. What's your name?");
     out.println("A VOICE: Eeyore. I'm sad because I don't have a tail.");
     out.println("YOU: I'm Bill. Just because you don't have a tail doesn't mean you have to be sad." + prompt);
-    scanner.nextline();
+    scanner.next();
   }
 }
