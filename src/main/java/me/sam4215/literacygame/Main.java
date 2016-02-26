@@ -22,7 +22,14 @@ public class Main {
     scanner.next();
     out.println(newLine + "YOU: Well, hello there. What's your name?");
     out.println("A VOICE: Eeyore. I'm sad because I don't have a tail.");
-    out.println("YOU: I'm Bill. Just because you don't have a tail doesn't mean you have to be sad." + prompt);
+    out.println("YOU: I'm Bill. Just because you don't have a tail doesn't mean you have to be sad.\n" + prompt);
     scanner.next();
+    out.println(newLine + "EEYORE: Don't try and make me feel better; it never works.");
+    out.println("YOU (to yourself): I guess, compared to a missing tail, dyslexia isn't that bad.\n" + prompt);
+    scanner.next();
+    out.println(newLine + "You walk off, feeling better. You accept that there's nothing you can do.");
+    out.println("Suddenly, you feel a gust of wind.\n" + prompt);
+    scanner.next();
+    out.println(newLine + "A VOICE: There's nothing we can do");
   }
 }
