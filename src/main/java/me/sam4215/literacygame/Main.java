@@ -47,6 +47,8 @@ public class Main {
     scanner.next();
     out.println(newLine + "YOU: Yeah. I like myself for the way I am! Today's gonna be a good day!\n" + prompt);
     scanner.next();
-    
+    out.println(newLine + "Bill Gates overcame his dyslexia and went on to found Microsoft.\nHe is now the richest man on Earth.\nPress ENTER to finish the game.")
+    scanner.next();
+    System.exit(0);
   }
 }
